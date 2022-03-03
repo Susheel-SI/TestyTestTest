@@ -2,12 +2,6 @@
 > Summary description here.
 
 
-```python
-%load_ext autoreload
-%autoreload 2
-
-```
-
 This file will become your README and also the index of your documentation.
 
 ## Install
@@ -16,7 +10,7 @@ This file will become your README and also the index of your documentation.
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+Call the say_hello function to say hello to the name that you input
 
 ```python
 say_hello("Sussy")
@@ -47,14 +41,20 @@ o.say()
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-5-5d148e8b4c7b> in <module>
-    ----> 1 o = HelloSayer("Nived")
-          2 o.say()
 
 
-    NameError: name 'HelloSayer' is not defined
+    'Hello Nived!'
+
+
+
+```python
+k = HelloSayer("Kenobi")
+k.hellothere()
+```
+
+
+
+
+    'Hello There. Ahhh General Kenobi, you are a bold one'
+
 
